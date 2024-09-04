@@ -28,7 +28,7 @@
     "tabWidth": 4,
     "semi": false,
     "useTabs": true,
-    "singleQuote": true,
+    "singleQuote": false,
     "trailingComma": "es5",
     "jsxSingleQuote": false
   }

@@ -1,7 +1,3 @@
-
-const Index = () => {
-
-
-}
+const Index = () => {}
 
 export default Index
