@@ -1,6 +1,6 @@
+import Image from "next/image"
 import cry from "@/assets/cry.png"
 import sunflowers from "@/assets/sunflowers.png"
-import Image from "next/image"
 
 export const ArtisticStyle = () => {
 	return (
@@ -10,16 +10,16 @@ export const ArtisticStyle = () => {
 				A cry of color and emotion, a frenetic dance of brushstrokes
 				that turn realiy into a whirlwind of passion and light
 			</p>
-			<figure className="aspect-[6/7] absolute top-5 left-0">
+			<figure className="w-1/2 max-w-[220px] aspect-[6/7] absolute top-5 left-0">
 				<Image
-					className="w-3/4 h-full mr-auto opacity-95"
+					className="mr-auto opacity-95"
 					src={sunflowers}
 					alt="sunflowers draw"
 				/>
 			</figure>
-			<figure className="aspect-[7/8] absolute bottom-5 right-0">
+			<figure className="w-2/3 max-w-[305px] aspect-[7/8] absolute bottom-5 right-0">
 				<Image
-					className="w-5/6 h-full ml-auto opacity-95"
+					className="ml-auto opacity-95"
 					src={cry}
 					alt="cry draw"
 				/>
