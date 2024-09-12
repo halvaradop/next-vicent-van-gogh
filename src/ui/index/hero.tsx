@@ -6,9 +6,13 @@ export const Hero = () => {
 		<section>
 			<div className="min-h-screen flex items-center justify-center flex-col base:flex-row">
 				<figure className="w-3/4 max-w-[320px] mx-auto aspect-[3/4]">
-					<Image src={vicent} alt="image art" />
+					<Image
+						className="opacity-90"
+						src={vicent}
+						alt="image art"
+					/>
 				</figure>
-				<div className="mt-4">
+				<div className="mt-4 z-10">
 					<h1 className="uppercase fluency-6xl sm:text-7xl base:text-right">
 						Vicent Van Gogh
 					</h1>
