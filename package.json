@@ -29,10 +29,15 @@
   "prettier": {
     "tabWidth": 4,
     "semi": false,
-    "useTabs": true,
-    "singleQuote": false,
     "trailingComma": "es5",
-    "jsxSingleQuote": false,
-    "printWidth": 130
+    "printWidth": 130,
+    "overrides": [
+      {
+        "files": ["*.json", "*.yml", "*.yaml", "*.md"],
+        "options": {
+          "tabWidth": 2
+        }
+      }
+    ]
   }
 }
