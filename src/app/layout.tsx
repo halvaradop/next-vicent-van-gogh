@@ -2,6 +2,7 @@ import type { Metadata } from "next"
 import { Metrophobic } from "next/font/google"
 import { LayoutProps } from "@/lib/@types/props"
 import "@/ui/globals.css"
+import { Header } from "@/ui/header"
 
 const inter = Metrophobic({
     weight: "400",
@@ -43,7 +44,10 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: LayoutProps) {
     return (
         <html lang="en">
-            <body className={inter.className}>{children}</body>
+            <body className={`${inter.className} overflow-x-hidden scroll:w-2 track:my-1 thumb:rounded thumb:bg-black`}>
+                <Header />
+                {children}
+            </body>
         </html>
     )
 }
