@@ -1,20 +1,30 @@
-"use client"
-import Image from "next/image"
-import vicent from "@/assets/vicent.png"
+import { Button } from "@halvaradop/ui-button"
 
 export const Hero = () => {
     return (
-        <section className="min-w-full">
-            <div className="w-11/12 min-h-screen mx-auto flex items-center justify-center flex-col base:flex-row lg:max-w-screen-xl">
-                <figure className="w-3/4 max-w-[320px] mx-auto aspect-[3/4]">
-                    <Image className="opacity-90" src={vicent} alt="image art" priority />
-                </figure>
-                <div className="mt-4 z-10">
-                    <h1 className="uppercase fluency-6xl sm:text-7xl base:text-right">Vicent Van Gogh</h1>
-                    <p className="hidden base:mt-8 base:block base:text-right">
-                        Discover the legacy of Vicent Van Gogh, an artist whose genius transcends time
-                    </p>
+        <section className="">
+            <div className="min-h-[calc(100dvh-5rem)] content-center">
+                <h1 className="fluency-5xl">
+                    VICENT VAN GOGH - HISTORY GALLERY
+                    <span className="size-2 inline-block rounded bg-orange-600" />
+                </h1>
+                <div className="mt-6 flex items-start justify-between">
+                    <p>30</p>
+                    <div className="text-right">
+                        <p>March</p>
+                        <p>(1853)</p>
+                    </div>
                 </div>
+            </div>
+            <div>
+                <Button className="uppercase" variant="outline" fullRounded>
+                    watch history
+                </Button>
+                <p className="mt-10">
+                    Vicent Van Gogh revolutionized painting with a unique style, charged with emotion and depth. Her passionate
+                    life, full of challenges and genius, left an eternal legacy that continues to inspire generations and
+                    transform our vision of art and creativity.
+                </p>
             </div>
         </section>
     )
