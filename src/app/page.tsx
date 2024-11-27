@@ -7,7 +7,7 @@ import { LegacyAndImpact } from "@/ui/index/legacy-and-impact"
 
 const Index = () => {
     return (
-        <main className="w-11/12 mx-auto mb-20 uppercase space-y-28 sm:space-y-32 md:space-y-36">
+        <main className="w-11/12 mx-auto mb-20 uppercase space-y-28 sm:space-y-32 md:space-y-36 base:space-y-44 lg:w-10/12 lg:mb-0">
             <Hero />
             <AboutHim />
             <StyleAndTechnique />

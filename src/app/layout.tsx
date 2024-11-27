@@ -44,7 +44,7 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: LayoutProps) {
     return (
         <html lang="en">
-            <body className={`${inter.className} scroll:w-2 track:my-1 thumb:rounded thumb:bg-black`}>
+            <body className={`${inter.className} overflow-x-hidden scroll:w-2 track:my-1 thumb:rounded thumb:bg-black`}>
                 <Header />
                 {children}
             </body>

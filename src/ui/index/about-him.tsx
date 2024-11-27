@@ -12,9 +12,9 @@ export const AboutHim = () => {
                     <span className="size-2 inline-block rounded bg-orange-600" />
                 </h2>
             </div>
-            <div>
-                <div className="my-10">
-                    <p>
+            <div className="base:mt-20 base:grid base:grid-cols-[0.3fr,0.7fr] base:gap-x-10 lg:items-center">
+                <div className="my-10 base:m-0">
+                    <p className="text-justify">
                         Vincent van Gogh was a visionary of art, known for his emotive and unique style. Born in a humble
                         environment, he faced countless personal and professional challenges, which deeply marked his work.
                         Through intense colors and expressive strokes, he captured his vision of the world, exploring themes such
@@ -22,11 +22,16 @@ export const AboutHim = () => {
                         strength after his death, becoming an iconic figure who revolutionized painting and left an indelible mark
                         on the history of art.
                     </p>
-                    <Button className="mt-4 uppercase" variant="outline" fullRounded>
+                    <Button className="mt-4 uppercase base:mt-8" variant="outline" fullRounded>
                         read more
                     </Button>
                 </div>
-                <Image className="aspect-square object-cover" src={vicent} alt="Vincent van Gogh self-portrait" />
+                <Image
+                    className="mx-auto aspect-square object-cover base:-order-1"
+                    width={400}
+                    src={vicent}
+                    alt="Vincent van Gogh self-portrait"
+                />
             </div>
         </section>
     )
