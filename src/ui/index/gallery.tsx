@@ -23,8 +23,8 @@ export const Gallery = () => {
                     <span className="size-2 inline-block rounded bg-orange-600" />
                 </h2>
                 <p className="mt-10">
-                    Explore Vincent van Gogh's gallery, where vibrant colors and unique strokes reveal his genius and timeless
-                    artistic legacy.
+                    Explore Vincent van Gogh&apos;s gallery, where vibrant colors and unique strokes reveal his genius and
+                    timeless artistic legacy.
                 </p>
                 <Button className="mt-4 uppercase" variant="outline" fullRounded>
                     read more
