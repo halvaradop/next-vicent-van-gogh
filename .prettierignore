@@ -1,8 +1,11 @@
+# Ignore artifacts:
 dist
 public
 coverage
 node_modules
 
+# Files
 package.json
 package-lock.json
+pnpm-lock.yaml
 tsconfig.json
