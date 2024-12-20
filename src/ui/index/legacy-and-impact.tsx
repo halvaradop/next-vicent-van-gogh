@@ -1,4 +1,4 @@
-import Image from "next/image"
+import { Image } from "@/ui/common/image"
 import night from "@/assets/night.webp"
 
 export const LegacyAndImpact = () => {

@@ -3,6 +3,7 @@ import { Metrophobic } from "next/font/google"
 import { LayoutProps } from "@/lib/@types/props"
 import "@/ui/globals.css"
 import { Header } from "@/ui/header"
+import { Scrollbar } from "@/ui/scrollbar"
 
 const inter = Metrophobic({
     weight: "400",
@@ -43,10 +44,14 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: LayoutProps) {
     return (
-        <html lang="en">
-            <body className={`${inter.className} overflow-x-hidden scroll:w-2 track:my-1 thumb:rounded thumb:bg-black`}>
-                <Header />
-                {children}
+        <html className="relative scroll-smooth" lang="en">
+            <body
+                className={`${inter.className} relative overflow-x-hidden overflow-y-scroll selection:text-orange-100 selection:bg-orange-500 scroll:w-2 track:my-1 thumb:rounded thumb:bg-black`}
+            >
+                <Scrollbar>
+                    <Header />
+                    {children}
+                </Scrollbar>
             </body>
         </html>
     )

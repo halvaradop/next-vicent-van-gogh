@@ -1,4 +1,4 @@
-import Image from "next/image"
+import { Image } from "@/ui/common/image"
 import styleAndTechnique from "@/assets/style-and-technique.webp"
 
 export const StyleAndTechnique = () => {

@@ -1,5 +1,5 @@
-import Image from "next/image"
 import { Button } from "@halvaradop/ui-button"
+import { Image } from "@/ui/common/image"
 import vicent from "@/assets/vicent.png"
 
 export const AboutHim = () => {
