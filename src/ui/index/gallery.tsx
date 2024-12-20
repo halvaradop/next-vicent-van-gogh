@@ -2,7 +2,7 @@
 import { useRef } from "react"
 import { Button } from "@halvaradop/ui-button"
 import { galleryImages } from "@/lib/images"
-import { motion, useScroll, useSpring, useTransform } from "motion/react"
+import { motion, useScroll, useTransform } from "motion/react"
 import { Image } from "@/ui/common/image"
 
 export const Gallery = () => {

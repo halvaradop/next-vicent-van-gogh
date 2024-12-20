@@ -9,4 +9,6 @@ export interface WaveProps {
     paragraphs: string[]
 }
 
-export interface ScrollbarProps extends LayoutProps {}
+export interface ScrollbarProps extends LayoutProps {
+    className?: string
+}
