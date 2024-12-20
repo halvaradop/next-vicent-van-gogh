@@ -11,6 +11,7 @@ const config: Config = {
     theme: {
         extend: {
             screens: {
+                xs: "450px",
                 base: "900px",
             },
             fontFamily: {
