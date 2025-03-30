@@ -1,3 +1,10 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+@plugin "@halvaradop/tailwindcss-utilities";
+
+@theme {
+    --breakpoint-*: initial;
+    --breakpoint-xs: 450px;
+    --breakpoint-base: 900px;
+
+    --font-metrophobic: var(--font-metrophobic);
+}

@@ -1,3 +1,6 @@
+/**
+ * @deprecated to be removed in the next major version
+ */
 import type { Config } from "tailwindcss"
 import utilities from "@halvaradop/tailwindcss-utilities"
 
