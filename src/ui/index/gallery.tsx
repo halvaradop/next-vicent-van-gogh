@@ -14,9 +14,9 @@ export const Gallery = () => {
     const top = useTransform(scrollYProgress, [0, 1], ["0", "84.5%"])
 
     return (
-        <section className="base:grid base:grid-cols-[0.4fr,0.6fr] base:gap-x-10 base:relative" ref={ref}>
+        <section className="base:grid base:grid-cols-[0.4fr_0.6fr] base:gap-x-10 base:relative" ref={ref}>
             <motion.div className="base:h-fit base:relative" style={{ top }}>
-                <h2 className="fluency-5xl">
+                <h2 className="text-fluid-5xl">
                     Gallery
                     <span className="size-2 inline-block rounded bg-orange-600" />
                 </h2>

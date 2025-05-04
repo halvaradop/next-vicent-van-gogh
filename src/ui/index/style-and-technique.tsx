@@ -5,7 +5,7 @@ export const StyleAndTechnique = () => {
     return (
         <section className="lg:h-dvh lg:content-center lg:relative">
             <div className="lg:w-2/3 lg:text-white lg:relative lg:z-10">
-                <h2 className="fluency-5xl">
+                <h2 className="text-fluid-5xl">
                     style and technique
                     <span className="size-2 inline-block rounded bg-orange-600" />
                 </h2>
