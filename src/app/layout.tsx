@@ -46,7 +46,7 @@ export default function RootLayout({ children }: LayoutProps) {
     return (
         <html className="relative scroll-smooth" lang="en">
             <body
-                className={`${metrophobic.className} relative overflow-x-hidden overflow-y-scroll selection:text-orange-100 selection:bg-orange-500 scroll:w-2 track:my-1 thumb:rounded thumb:bg-black`}
+                className={`${metrophobic.className} relative overflow-x-hidden overflow-y-scroll selection:text-orange-100 selection:bg-orange-500 scrollbar:w-2 track:my-1 thumb:rounded thumb:bg-black`}
             >
                 <Scrollbar>
                     <Header />

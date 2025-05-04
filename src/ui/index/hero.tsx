@@ -10,7 +10,7 @@ export const Hero = () => {
     return (
         <section className="base:min-h-[calc(100dvh-5rem)] base:content-center">
             <div className="min-h-[calc(100dvh-5rem)] content-center base:min-h-min">
-                <h1 className="fluency-3xl xs:fluency-4xl sm:fluency-5xl base:fluency-6xl">
+                <h1 className="text-fluid-3xl xs:text-fluid-4xl sm:text-fluid-5xl base:text-fluid-6xl">
                     <Wave paragraphs={paragraphs} />
                     <span className="size-2 inline-block rounded bg-orange-600" />
                 </h1>
@@ -27,7 +27,7 @@ export const Hero = () => {
                     </div>
                 </motion.div>
             </div>
-            <div className="base:mt-20 base:grid base:grid-cols-[0.4fr,0.6fr]">
+            <div className="base:mt-20 base:grid base:grid-cols-[0.4fr_0.6fr]">
                 <Button className="uppercase" variant="outline" fullRounded>
                     watch history
                 </Button>

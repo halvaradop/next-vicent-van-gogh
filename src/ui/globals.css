@@ -1,10 +1,10 @@
 @import "tailwindcss";
-@plugin "@halvaradop/tailwindcss-utilities";
+@source "../../node_modules/@halvaradop/ui-button";
+@reference "../../node_modules/@halvaradop/tailwindcss-utilities/dist/plugin.css";
 
 @theme {
-    --breakpoint-*: initial;
-    --breakpoint-xs: 450px;
-    --breakpoint-base: 900px;
+    --breakpoint-xs: 28.125rem;
+    --breakpoint-base: 56.25rem;
 
     --font-metrophobic: var(--font-metrophobic);
 }

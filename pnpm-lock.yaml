@@ -28,8 +28,8 @@ importers:
         version: 2.6.0
     devDependencies:
       '@halvaradop/tailwindcss-utilities':
-        specifier: ^0.2.3
-        version: 0.2.3
+        specifier: ^1.0.0
+        version: 1.0.0
       '@tailwindcss/postcss':
         specifier: ^4.0.17
         version: 4.0.17
@@ -123,8 +123,8 @@ packages:
     resolution: {integrity: sha512-JubJ5B2pJ4k4yGxaNLdbjrnk9d/iDz6/q8wOilpIowd6PJPgaxCuHBnBszq7Ce2TyMrywm5r4PnKm6V3iiZF+g==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
 
-  '@halvaradop/tailwindcss-utilities@0.2.3':
-    resolution: {integrity: sha512-z8e3hdNLpgV7Pv46VL0zboLAhxC63xUt/8iYqiYO3TJxBlcWQZkAuyN7LZVH1x/FfqVCxo0YgMLYZ3HlRQ0IHw==}
+  '@halvaradop/tailwindcss-utilities@1.0.0':
+    resolution: {integrity: sha512-tWohTj+ppgLXdXDd6HE8vd9gtg6WluBExaAjA3wGW1HkTBOXjG2/ThKxeq1AiwvaXK+QXv+mgK5OSXGnLnMJqg==}
 
   '@halvaradop/ui-button@0.4.0-beta.1':
     resolution: {integrity: sha512-ZymK9i1tikcVY2/N20g7KIu45o6h+Si5x8i0Ak0GnYWr85zYMC5P4WLSWex8drNH8Wdy/yxqFjfK5hS059UNLg==}
@@ -1866,7 +1866,7 @@ snapshots:
       '@eslint/core': 0.12.0
       levn: 0.4.1
 
-  '@halvaradop/tailwindcss-utilities@0.2.3': {}
+  '@halvaradop/tailwindcss-utilities@1.0.0': {}
 
   '@halvaradop/ui-button@0.4.0-beta.1':
     dependencies:

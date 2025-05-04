@@ -20,7 +20,7 @@
     "tailwind-merge": "^2.6.0"
   },
   "devDependencies": {
-    "@halvaradop/tailwindcss-utilities": "^0.2.3",
+    "@halvaradop/tailwindcss-utilities": "^1.0.0",
     "@tailwindcss/postcss": "^4.0.17",
     "@types/node": "^22.13.14",
     "@types/react": "^19.0.12",

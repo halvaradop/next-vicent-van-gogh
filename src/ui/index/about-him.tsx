@@ -7,12 +7,12 @@ export const AboutHim = () => {
         <section>
             <div>
                 <p>About Him</p>
-                <h2 className="fluency-5xl">
+                <h2 className="text-fluid-5xl">
                     This is a short history about him and his career
                     <span className="size-2 inline-block rounded bg-orange-600" />
                 </h2>
             </div>
-            <div className="base:mt-20 base:grid base:grid-cols-[0.3fr,0.7fr] base:gap-x-10 lg:items-center">
+            <div className="base:mt-20 base:grid base:grid-cols-[0.3fr_0.7fr] base:gap-x-10 lg:items-center">
                 <div className="my-10 base:m-0">
                     <p className="text-justify">
                         Vincent van Gogh was a visionary of art, known for his emotive and unique style. Born in a humble
